@@ -28,22 +28,34 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty {
-  background: rgba(128, 0, 128, 0.3);
+  background: rgba(58, 46, 96, 0.28);
   color: white;
 }
 
 .frosty h1 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  text-shadow: rgba(128, 0, 128, 0.3) 1px 1px;
+  text-shadow: rgba(58, 46, 96, 0.28) 1px 1px;
 }
 
 .frosty h2 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
-  text-shadow: rgba(128, 0, 128, 0.3) 1px 1px;
+  text-shadow: rgba(58, 46, 96, 0.28) 1px 1px;
 }
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  color: #00004d;
 }
